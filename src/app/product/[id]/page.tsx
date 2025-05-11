@@ -10,8 +10,8 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
 
   // If the product is not found during server-side fetch, trigger 404
   if (!product) {
-    // notFound();
-    return null
+    notFound();
+    // return null
   }
 
   // Pass the fetched product data to the client component
