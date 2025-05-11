@@ -45,11 +45,11 @@
 //     </div>
 //   );
 // }
-
+"use-client"
 import Link from 'next/link'
 import { AlertTriangle } from 'lucide-react'
 
-export default function notFound() {
+export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[60vh] text-center px-4">
       <AlertTriangle className="w-16 h-16 text-red-500 mb-4" />
